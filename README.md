@@ -19,7 +19,7 @@ Prometheus (localhost:9090) is configured to scrape metrics from the sample fast
 Grafana (localhost:3000, username:admin, password:grafana) is configured to pull data from the two jobs, (prometheus and fastapisample).
 
 Browse to localhost:3000 and login, click on Dashboards on the left menu
-You'll see a fastapisample folder, with a fastapisample dashboard.  That dashbaord is checking the "up" metric coming from the fastapi application.
+You'll see a fastapisample folder, with a fastapisample dashboard.  That dashbaord is checking the "up" metric coming from the fastapi application. You may need to hit refresh top right in order to see some data points.
 
 Click on Alert Rules on the left had menu
 You'll see a fastapisample alert in the grafana-managed section. It should be showing as normal as the api is up, or reporting 1.
